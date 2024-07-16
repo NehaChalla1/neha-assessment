@@ -15,7 +15,11 @@ Steps:-
 
 1. Create and Build Angular Application
 
-   I have created Angular application using this command 
+   I have created Angular application namely Neha-assessment using this command
+
+   # Neha Assessment
+
+   This repository contains the code for the Neha Assessment Angular web application.
 
    ng new my-angular-app
 
@@ -26,35 +30,51 @@ Steps:-
    which will create the dist folder and in this folder we will have production-ready files
 
 
-3. Create a Docker File
+2. ## Create a Docker File
 
    And now the web application is ready for this web application we need to docker images for that we need to create a Docker file and this dockerfile needs to be present in the 
    project folder
 
-4. Create Nginx Configuration file
+3. ## Create Nginx Configuration file
 
     We need to create ngInx file in the root folder itself only, Creating an nginx.conf file is important for customizing the behavior of the Nginx server that will serve your 
     Angular application,In this file we will have port number, server_name
 
-5. Build the Docker Image
+4. ## Build the Docker Image
 
     After this we need to run this coomand for building the docker images
 
     docker build -t neha-assessment .
 
    
-6. Run Docker Container
+5. ## Run Docker Container
 
    After the image is built, you can run it in docker container using the following commands
 
    docker run -d -p 80:80 my-angular-app
 
    
-8. Access the application
+6. ## Access the application
+
+    Open a web browser and navigate to http://localhost. You should see your Angular application running.
 
 
+     And now i pushed this docker image into docker hub by using this both commands 
 
+      docker tag neha-assessment neha200022/neha-assessment( For Tagging the image which needs to pushed into Docker Hub)
+      docker push neha200022/neha-assessment (For Pushing it into the Docker Hub)
 
+Now we need to test the Docker image which we created and pushed it into Docker Hub 
+
+## Docker Image
+
+The Docker image for this application is available on Docker Hub. You can pull and run the Docker image using the following commands:
+
+### Pull the Docker Image
+
+docker pull neha200022/neha-assessment
+
+and it should reflect like the same as below image
 
 
 
