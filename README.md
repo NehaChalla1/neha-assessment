@@ -1,15 +1,15 @@
-DOCKER APPLICATION DEPLOYMENT:-
+#### DOCKER APPLICATION DEPLOYMENT:-
 
-Basic Description:-
+## Basic Description:-
 
 I (Neha Challa - G23AI2067) have created a Web application which Employee's Issue form where we can collect the basic details of employee like first name , last name,mobile number,email, martial status,Issue description and form will have submit button by pressing it form details will be collected this is the basic idea of it
 
 Technologies udes in this :-
 
-1. ## Angular 16.2.12 --- For creating the web application
-2. ## Angular Materials --- For styling the web applications
-3. ## Docker --- For creating the Docker images for the We application we created 
-4. ## Git --- For pushing the code 
+1. # Angular 16.2.12 --- For creating the web application
+2. # Angular Materials --- For styling the web applications
+3. # Docker --- For creating the Docker images for the We application we created 
+4. # Git --- For pushing the code 
 
 Steps:- 
 
