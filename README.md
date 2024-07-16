@@ -1,27 +1,63 @@
-# NehaAssessment
+DOCKER APPLICATION DEPLOYMENT:-
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+Basic Description:-
 
-## Development server
+I (Neha Challa - G23AI2067) have created a created a Web application which Employee's Issue form where we can collect the basic details of employee like first name , last name,mobile number,email, martial status,Issue description and form will have submit button by pressing it form details will be collected this is the basic idea of it
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Technologies udes in this :-
 
-## Code scaffolding
+Angular 16.2.12 --- For creating the web application
+Angular Materials --- For styling the web applications
+Docker --- For creating the Docker images for the We application we created 
+Git --- For pushing the code 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Steps:- 
 
-## Build
+1. Create and Build Angular Application
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+   I have created Angular application using this command 
 
-## Running unit tests
+   ng new my-angular-app
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+   This will create the angular project where we can build the web application as required,After we make changes in the project we need to build the project by using this command
 
-## Running end-to-end tests
+   ng build --configuration production
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+   which will create the dist folder and in this folder we will have production-ready files
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+3. Create a Docker File
+
+   And now the web application is ready for this web application we need to docker images for that we need to create a Docker file and this dockerfile needs to be present in the 
+   project folder
+
+4. Create Nginx Configuration file
+
+    We need to create ngInx file in the root folder itself only, Creating an nginx.conf file is important for customizing the behavior of the Nginx server that will serve your 
+    Angular application,In this file we will have port number, server_name
+
+5. Build the Docker Image
+
+    After this we need to run this coomand for building the docker images
+
+    docker build -t neha-assessment .
+
+   
+6. Run Docker Container
+
+   After the image is built, you can run it in docker container using the following commands
+
+   docker run -d -p 80:80 my-angular-app
+
+   
+8. Access the application
+
+
+
+
+
+
+
+![image](https://github.com/user-attachments/assets/10dbf3e7-ff69-4298-8901-8259e914625f)
+
+
