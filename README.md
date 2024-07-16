@@ -2,7 +2,7 @@ DOCKER APPLICATION DEPLOYMENT:-
 
 Basic Description:-
 
-I (Neha Challa - G23AI2067) have created a created a Web application which Employee's Issue form where we can collect the basic details of employee like first name , last name,mobile number,email, martial status,Issue description and form will have submit button by pressing it form details will be collected this is the basic idea of it
+I (Neha Challa - G23AI2067) have created a Web application which Employee's Issue form where we can collect the basic details of employee like first name , last name,mobile number,email, martial status,Issue description and form will have submit button by pressing it form details will be collected this is the basic idea of it
 
 Technologies udes in this :-
 
