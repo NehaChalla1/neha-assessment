@@ -64,9 +64,12 @@ Now we need to test the Docker image which we created and pushed it into Docker 
 
 ## Docker Image for checking purpose
 
-The Docker image for this application is available on Docker Hub. You can pull and run the Docker image using the following commands:
+The Docker image for this application is available on Docker Hub. You can pull and run the Docker image using the both commands:
 
 docker pull neha200022/neha-assessment
+
+docker run -d -p 80:80 <your-docker-hub-username>/neha-assessment-g23ai2067
+
 
 and it should reflect like the same as below image
 
