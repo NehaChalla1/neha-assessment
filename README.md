@@ -6,14 +6,14 @@ I (Neha Challa - G23AI2067) have created a Web application which Employee's Issu
 
 Technologies udes in this :-
 
-1.Angular 16.2.12 --- For creating the web application
-2.Angular Materials --- For styling the web applications
-3.Docker --- For creating the Docker images for the We application we created 
-4.Git --- For pushing the code 
+1. ## Angular 16.2.12 --- For creating the web application
+2. ## Angular Materials --- For styling the web applications
+3. ## Docker --- For creating the Docker images for the We application we created 
+4. ## Git --- For pushing the code 
 
 Steps:- 
 
-1. Create and Build Angular Application
+1. ## Create and Build Angular Application
 
    I have created Angular application namely Neha-assessment using this command
 
