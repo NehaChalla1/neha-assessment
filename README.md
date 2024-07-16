@@ -8,7 +8,7 @@ Technologies used in this :-
 
 1.  Angular 16.2.12 --- For creating the web application
 2.  Angular Materials --- For styling the web applications
-3.  Docker --- For creating the Docker images for the We application we created 
+3.  Docker --- For creating the Docker images for the application we created 
 4.  Git --- For pushing the code 
 
 Steps:- 
@@ -16,8 +16,6 @@ Steps:-
 1. ## Create and Build Angular Application
 
    I have created Angular application namely Neha-assessment using this command
-
-   Neha Assessment (This repository contains the code for the Neha Assessment Angular web application.)
 
    ng new my-angular-app
 
@@ -30,7 +28,7 @@ Steps:-
 
 2. ## Create a Docker File
 
-   And now the web application is ready for this web application we need to docker images for that we need to create a Docker file and this dockerfile needs to be present in the 
+   And now the web application is ready we need to create docker images for that we need to create a Docker file and this dockerfile needs to be present in the 
    project folder
 
 3. ## Create Nginx Configuration file
