@@ -70,8 +70,7 @@ docker pull neha200022/neha-assessment
 
 docker run -d -p 80:80 <your-docker-hub-username>/neha-assessment-g23ai2067
 
-
-and it should reflect like the same as below image
+After this try running the Http:localhost and it should reflect like the same as below image
 
 
 
