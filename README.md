@@ -11,7 +11,7 @@ Technologies used in this :-
 3.  Docker --- For creating the Docker images for the application we created 
 4.  Git --- For pushing the code 
 
-Steps:- 
+## Steps:- 
 
 1. ## Create and Build Angular Application
 
