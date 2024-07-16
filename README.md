@@ -1,4 +1,4 @@
-#### DOCKER APPLICATION DEPLOYMENT:-
+#### DOCKER APPLICATION DEPLOYMENT BY G23AI2067 (NEHA CHALLA):-
 
 Basic Description:-
 
@@ -17,9 +17,7 @@ Steps:-
 
    I have created Angular application namely Neha-assessment using this command
 
-   # Neha Assessment
-
-   This repository contains the code for the Neha Assessment Angular web application.
+   Neha Assessment (This repository contains the code for the Neha Assessment Angular web application.)
 
    ng new my-angular-app
 
