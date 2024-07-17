@@ -68,7 +68,7 @@ The Docker image for this application is available on Docker Hub. You can pull a
 
 docker pull neha200022/neha-assessment
 
-docker run -d -p 80:80 <your-docker-hub-username>/neha-assessment-g23ai2067
+docker run -d -p 80:80 neha200022/neha-assessment
 
 After this try running the http://localhost and it should reflect like the same as below image
 
